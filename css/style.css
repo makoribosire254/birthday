@@ -1,20 +1,4 @@
 
-body{
-	background-color: silver;
-
-}
-
-.jumbotron{
-	background-color: lightblue;
-	text-align: center;
-	font-weight: 14px;
-	font-family: sans-serif;
-	margin: 0;
-	padding: 0;
-	padding-top: 30px;
-	color: indigo;
-}
-
 .container1{
 	background-color: lightgreen;
 	padding-left: 10px;
@@ -55,4 +39,17 @@ body{
   display: inline-block;
   float: left;
   font-size: 18px;
+}
+body{
+	background-color: silver;
+}
+.jumbotron{
+	background-color: lightblue;
+	text-align: center;
+	font-weight: 14px;
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	padding-top: 30px;
+	color: indigo;
 }
