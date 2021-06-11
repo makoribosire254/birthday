@@ -10,10 +10,32 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script
   </head>
   <body>
-    <div class="jumbotron">
+<div class="jumbotron">
   <h2>Birthday Indivitual Project</h2>
   <p>The Birthday Project requires the users to enter their <br>Birthday and Calculates the day of the week they were born</p>
 </div>
 
+<div class="container1">
+  <p>The program also upon displaying the Birthday of the week, it also</p>
+  <p>Displays the user's Akan Name depending on their gender.</p>
+
+<h3>Birthday:</h3>
+    <form action="/action.php" target="_blank">
+    <div class="custom-date-field">
+    <p><label>DOB <span>Enter the date</span></label>
+        <input id="dateField" type="text" placeholder="DD/MM/YYYY" >
+    </p>
+</div>
+<br>
+    <h3>Gender:</h3>
+      <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+
+    <input type="button" onclick="alert(Your Akan Name Is:)" value="Submit">
+
+  </form>
+</div>
 </body>
 </html>
